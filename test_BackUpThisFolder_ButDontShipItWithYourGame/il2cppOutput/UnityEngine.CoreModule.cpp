@@ -2520,6 +2520,11 @@ struct UnsafeUtility_tC3E6B7D52A973A81739E8BD97D6E757BA8371D46  : public Runtime
 {
 };
 
+// UnityEngine.Diagnostics.Utils
+struct Utils_t26FB030500B7616C99A5AEDF554652AA965BC785  : public RuntimeObject
+{
+};
+
 // System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
@@ -29444,6 +29449,23 @@ IL_0025:
 		int32_t L_5 = V_1;
 		return L_5;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.Diagnostics.Utils::ForceCrash(UnityEngine.Diagnostics.ForcedCrashCategory)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utils_ForceCrash_mF54210097860008709560A1EFC6EACFB12977B8D (int32_t ___crashCategory0, const RuntimeMethod* method) 
+{
+	typedef void (*Utils_ForceCrash_mF54210097860008709560A1EFC6EACFB12977B8D_ftn) (int32_t);
+	static Utils_ForceCrash_mF54210097860008709560A1EFC6EACFB12977B8D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Utils_ForceCrash_mF54210097860008709560A1EFC6EACFB12977B8D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Diagnostics.Utils::ForceCrash(UnityEngine.Diagnostics.ForcedCrashCategory)");
+	_il2cpp_icall_func(___crashCategory0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
